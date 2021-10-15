@@ -1,0 +1,47 @@
+{
+    "Options" :
+    {
+        "EncloseWithBody" : "True",
+        "LabelWidth" : 250
+    },
+    "Blocks" : [
+        {
+            "Type" : "Header",
+            "Label" : "NODE RELATED JOBS"
+        },
+        {
+            "Type" : "JobStatus",
+            "Label" : "COMPILE NODE",
+            "Success" : "True",
+            "BadgeImage" : "./image_js.png"
+        },
+        {
+            "Type" : "JobStatus",
+            "Label" : "TEST NODE",
+            "Success" : "False",
+            "BadgeImage" : "./image_js.png"
+        },
+        {
+            "Type" : "Header",
+            "Label" : "OTHER TASKS"
+        },
+        {
+            "Type" : "JobStatus",
+            "Label" : "PREPARE C# APP",
+            "Success" : "True",
+            "BadgeImage" : "./image_csharp.png"
+        },
+        {
+            "Type" : "JobStatus",
+            "Label" : "BUILD C# APP",
+            "Success" : "True",
+            "BadgeImage" : "./image_csharp.png"
+        },
+        {
+            "Type" : "JobStatus",
+            "Label" : "TEST C# APP",
+            "Success" : "False",
+            "BadgeImage" : "./image_csharp.png"
+        }
+    ]
+}
