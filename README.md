@@ -1,4 +1,4 @@
-[img][]
+
 <img src="./headerImage.jpg">
 # Combined Task Report
 
